@@ -1,0 +1,70 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    min-height: 0;
+    transition: none;
+    animation: none;
+}
+
+window#waybar {
+    background: #1c1c1c;
+    color: #bbbbbb;
+}
+
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#tray,
+#custom-power {
+    background: #222222;
+    color: #bbbbbb;
+    padding: 0 4px;
+    margin: 0;
+    border-radius: 0;
+}
+
+#workspaces {
+    padding: 0;
+}
+
+#workspaces button {
+    background: #222222;
+    color: #bbbbbb;
+    padding: 0;
+    margin: 0;
+    min-width: 20px;
+    border-radius: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    box-shadow: none;
+    transition: none;
+    animation: none;
+}
+
+#workspaces button.active {
+    background: #617cb0;
+    color: #eeeeee;
+    transition: none;
+    animation: none;
+}
+
+#workspaces button.active.persistent {
+    background: #4d6289;
+    color: #eeeeee;
+}
+
+#custom-power {
+    padding-right: 10px;
+}
+
+tooltip {
+    background: #222222;
+    border: 1px solid #444444;
+    color: #bbbbbb;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+}
