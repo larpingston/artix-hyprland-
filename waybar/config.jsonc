@@ -37,7 +37,7 @@
         "tooltip": false
     },
     "pulseaudio": {
-        "format": "{volume}% {icon}",
+        "format": "vol {volume}% {icon}",
         "format-muted": "muted \udb81\udf5f",
         "format-icons": {
             "default": [

@@ -6,22 +6,16 @@
     "type": "file",
     "width": 5,
     "height": 1,
-    "color": {
-      "1": "38;2;129;161;193"
-    },
     "padding": {
       "top": 2,
       "bottom":6,
       "left": 1,
-      "right": 4
+      "right": 4,
     }
   },
 
   "display": {
-    "separator": "  ",
-    "color": {
-      "keys": "38;2;129;161;193"
-    }
+    "separator": "  "
   },
 
   "modules": [

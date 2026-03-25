@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: 10px;
+    font-size: 11px;
     min-height: 0;
     transition: none;
     animation: none;
@@ -39,21 +39,26 @@ window#waybar {
     min-width: 20px;
     border-radius: 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: 10px;
+    font-size: 11px;
     box-shadow: none;
     transition: none;
     animation: none;
 }
 
 #workspaces button.active {
-    background: #617cb0;
+    background: #7a85a0;
     color: #eeeeee;
     transition: none;
     animation: none;
 }
 
 #workspaces button.active.persistent {
-    background: #4d6289;
+    background: #626b80;
+    color: #eeeeee;
+}
+
+#workspaces button.urgent {
+    background: #bf616a;
     color: #eeeeee;
 }
 
@@ -66,5 +71,5 @@ tooltip {
     border: 1px solid #444444;
     color: #bbbbbb;
     font-family: "JetBrains Mono", monospace;
-    font-size: 10px;
+    font-size: 11px;
 }
