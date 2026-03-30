@@ -4,7 +4,7 @@
  */
 
 * {
-    bg:          #171717;
+    bg:          #191c24;
     fg:          #8c8c8c;
     fg-dim:      #1d1a1e;
     border-col:  #7a85a0;
